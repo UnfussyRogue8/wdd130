@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>ICE Page</title>
+    <style>
+        .project-folders {
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 4%;
+            row-gap: 50px;
+        }
+        .project-folders a {
+            color: #3C5365;
+            text-decoration: none;
+        }
+        .project-widget {
+            aspect-ratio: 1.551 / 1;
+            max-width: 348px;
+            max-height: 225px;
+        }
+        .project-widget p {
+            font-size: 1px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .project-widget:hover p {
+            opacity: 1;
+            font-size: 40px;
+            visibility: visible;
+            font-size: 16px;
+        }
+        .project-widget:hover h4 {
+            margin-top: 16px;
+            font-size: 20px;
+        }
+        .coursework {
+            padding-bottom: 32px;
+        }
+        .widget-text h4 {
+            font-size: 18px;
+            transition: font-size 0.4s ease;
+            margin-top: 16px;
+        }
+        .widget-text p {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <section class="top-container">
+            <img class="logo" src="images/portal_page_logo.png" alt="computer logo image">
+            <div class="top-text">
+                <h1 id="full-name">Kieran Maciel</h1>
+                <p>Web Design and Development Portfolio</p>
+            </div>
+        </section>
+        <nav>
+            <a class="nav-page" href="#">Home</a>
+            <a class="nav-page" href="#">WWR</a>
+            <a class="nav-page" href="#">ICE</a>
+            <a class="nav-page" href="#">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="coursework">
+            <h3 class="section-title">My In-Class Exercises</h3>
+            <div class="project-folders">
+
+                <a href="../ice/prophet_cards/oaks.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>Prophet Card</h4>
+                            <p>Task: Design a profile card of a prophet.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_page_prophet_card.png" alt="prophet card image">
+                    </div>
+                </a>
+
+                <a href="../ice/apostle_spotlight/apostles.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>Apostle Spotlight</h4>
+                            <p>Task: Design a web page to spotlight the apostles.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_apostles.png" alt="apostle card image">
+                    </div>
+                </a>
+
+                <a href="../ice/favorite_BYUI_devotionals/favorite_devo/favdevo.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>Favorite Devotional Table</h4>
+                            <p>Task: Create a Form and a Table in HTML.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_favorite_devotional.png" alt="devotional page">
+                    </div>
+                </a>
+
+                <a href="../ice/halloween/index.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>Holiday Page</h4>
+                            <p>Task: Style the given html for the holiday.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_holiday.png" alt="holiday page">
+                    </div>
+                </a>
+
+                <a href="../ice/grid_flags/flags.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>Country Flags</h4>
+                            <p>Task: Style country flags using CSS grid.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_flags.png" alt="flags page">
+                    </div>
+                </a>
+
+                <a href="../ice/positioning/positioning.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>CSS Positioning Activity</h4>
+                            <p>Task: Complete grid practice activities.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_positioning.png" alt="positioning page">
+                    </div>
+                </a>
+
+                <a href="../ice/gallery/gallery.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>Image Gallery</h4>
+                            <p>Task: Create thumbnail images of an appropriate file size.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_gallery.png" alt="gallery page">
+                    </div>
+                </a>
+
+                <a href="../ice/signup/signup.html" target="_blank">
+                    <div class="project-widget">
+                        <div class="widget-text">
+                            <h4>Signup Form Design</h4>
+                            <p>Task: Style a form used for collecting data.</p>
+                        </div>
+                        <img class="project-img" src="images/ice_signup.png" alt="signup page">
+                    </div>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Kieran Maciel | Web Development and Design Portfolio</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Kieran's Portal Page</title>
+</head>
+<body>
+    <header>
+        <section class="top-container">
+            <img class="logo" src="images/portal_page_logo.png" alt="computer logo image">
+            <div class="top-text">
+                <h1 id="full-name">Kieran Maciel</h1>
+                <p>Web Design and Development Portfolio</p>
+            </div>
+        </section>
+        <nav>
+            <a class="nav-page" href="#">Home</a>
+            <a class="nav-page" href="#">WWR</a>
+            <a class="nav-page" href="#">ICE</a>
+            <a class="nav-page" href="#">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome to my Portfolio</h2>
+            <p>This website displays my class assignments, projects, and the progress I have made over the semester</p>
+        </section>
+
+        <hr>
+
+        <section class="coursework">
+            <h3 class="section-title">My Coursework</h3>
+            <div class="project-folders">
+                <div class="project-widget">
+                    <div class="widget-text">
+                        <h4>WWR</h4>
+                        <p>White Water Rafting</p>
+                    </div>
+                    <img class="project-img" src="images/wwr_image.png" alt="wwr website image">
+                </div>
+                <div class="project-widget">
+                    <div class="widget-text">
+                        <h4>ICE</h4>
+                        <p>In-Class Exercises</p>
+                    </div>
+                    <img class="project-img" src="images/ice_page.png" alt="ice page image">
+                </div>
+            </div>
+        </section>
+
+        <section class="learning-tracker">
+            <div class="what-im-learning">
+                <h3 class="section-title">What I'm Learning</h3>
+                <ul>
+                    <li>Web development (HTML, CSS)</li>
+                    <li>Design principles and UI/UX</li>
+                </ul>
+            </div>
+
+            <div class="project-tracker">
+                <h3 class="section-title">Project Tracker</h3>
+                <table>
+                    <tr>
+                        <th class="th-project">Project</th>
+                        <th class="th-status">Status</th>
+                    </tr>
+                    <tr>
+                        <td class="twwr">WWR</td>
+                        <td class="status1"><span>In progress</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tice">ICE</td>
+                        <td class="status2"><span>In progress</span></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr>
+
+        <section class="favorite-project">
+            <h3 class="section-title">Provide Feedback</h3>
+            <p>Which project is your favorite?</p>
+            <form>
+                <div>
+                    <input type="radio" id="wwr" name="fav_project">
+                    <label for="wwr">WWR</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="ice" name="fav_project">
+                    <label for="ice">ICE</label><br>
+                </div>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Kieran Maciel | Web Development and Design Portfolio</p>
+    </footer>
+</body>
+</html>

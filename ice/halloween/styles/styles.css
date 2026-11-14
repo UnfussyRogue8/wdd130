@@ -1,0 +1,100 @@
+/* Add your CSS here to style your halloween page */
+* {
+    font-family: Luminari, Helvetica, sans-serif;
+}
+body {
+    background-color: black;
+    height: 100%;
+    margin: 0 auto;
+}
+#wrapper {
+    margin: 0 auto;
+    width: auto;
+    background: linear-gradient(to bottom, #6d9dc8, #414770, #372248);
+    text-align: center;
+}
+
+/* HEADER SELECTORS */
+header {
+    background-color: #1e0830;
+    padding: 30px 0;
+    border-top: 3px solid #390d60;
+    border-bottom: 3px solid #390d60;
+    box-shadow: 0 8px 80px #c27afe;
+}
+nav {
+    max-width: 3000px;
+    margin: 0 auto;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-position: inside;
+    justify-items: center;
+    margin: 0 auto;
+
+    font-size: 32px;
+    color: #c27afe;
+    list-style-type: none;
+}
+
+ul li {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #00ff8843;
+}
+
+ul li:hover {
+    background-color:#00ff88;
+    text-shadow: 1px 1px black;
+    color: #583872;
+    border: 1px solid black;
+}
+
+/* MAIN SELECTORS */
+main {
+    color: orange;
+    max-width: 3000px;
+    margin: 0 auto;
+    padding-bottom: 34px;
+}
+main h1 {
+    font-size: 150px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+img {
+    position: relative;
+    box-shadow: 2px 2px 100px #019c7b;
+    border: 9px double black;
+    border-radius: 60px;
+    margin-bottom: 30px;
+}
+section {
+    position: relative;
+    margin: 20px auto 8px;
+    padding: 20px 16px 8px;
+    width: 2000px;
+    max-width: 80%;
+    text-align: center;
+    box-shadow: 3px 5px 10px black;
+    background: linear-gradient(to bottom, #414770, #372248);
+}
+section h2 {
+    font-size: 32px;
+    margin: 0px 0px 10px;
+}
+section p {
+    font-size: 16px;
+    font-family: Palatino;
+    margin-top: 0px;
+}
+
+/* FOOTER SELECTORS */
+footer {
+    padding: 24px;
+
+    font-family: Palatino;
+    background-color: #1f1329;
+    color: #c27afe;
+}
